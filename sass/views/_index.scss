@@ -1,0 +1,248 @@
+
+
+h1 {font-weight: bold;
+  text-align: center;
+  font-family: $font-title;
+  font-size: $text-small;
+  
+}  
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+.index__logo {
+  max-width: 15%;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 25px;
+  -webkit-transform: scale(0.5);
+	transform: scale(1);
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+  &:hover {
+    -webkit-transform: scale(1.1);
+			transform: scale(1.1);
+			filter: drop-shadow(5px 5px 1px rgb(184, 184, 184));
+  }
+}
+.index__section__login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px auto;
+  padding-bottom: $spacing-small;
+  width: 250px;
+  height: 180px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  font-family: $font-subtitle;
+  background-color: rgba(235, 228, 228, 0.75);
+  border-radius: 12px;
+  border: 1px solid gray
+}
+.index__login {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
+}
+
+.index__btn__login{
+  padding-top:$spacing-small;
+  margin: auto;
+
+}
+.loading__fork{
+  margin: 0 auto;
+  position: absolute;
+  top: 240px;
+  left: 43%;
+ 
+
+  
+}
+
+.index__form__tte{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 150px;
+  margin: 20px auto;
+  width: 550px;
+  height: 400px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  font-family: $font-subtitle;
+  background-color: rgba(235, 228, 228, 0.75);
+  border-radius: 12px;
+  border: 1px solid gray;
+  gap: 20px;
+}
+
+.index__label__input {
+  padding-left: 5px;
+}
+
+.card__carga__titulo{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  font-size: $text-small;
+  text-align: center;
+  position: relative;
+  top: -85%;
+  left:10%;
+  font-family: $font-title;
+  padding-top: $spacing-small;
+  width:200px;
+  height: 100x;
+  background-color: rgb(134, 148, 148);
+  border-radius: 12px;
+
+}
+
+.card__carga{
+  display:grid;
+  grid-template-columns: 2, 1fr;
+  justify-content: center;
+  align-items: center;
+  top: 150px;
+  margin: auto;
+  width: 840px;
+  height: 720px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  font-family: $font-subtitle;
+  background-color: rgba(235, 228, 228, 0.75);
+  border-radius: 12px;
+  border: 1px solid gray
+}
+
+.btn__inicia__todo{
+  margin: 0 auto;
+  position: relative;
+  top: -200px;
+  display: flex;
+  gap:15px;
+  width: 150px;
+ .btn__sty{
+  color: #318acc;
+  background-color:rgba(0, 0, 0, 0);
+  font-family: $font-subtitle;
+  font-weight: bold;
+  border: 2px solid;
+  transition: all 1s ease;
+
+&:hover{
+  background: #2bda48;
+  color:#fff !important; 
+}
+}
+ } 
+
+.btn__cargas{
+  display: grid;
+  grid-template-columns: 1fr;
+  position: relative;
+  top: 150px;
+  right:250px;
+  gap:20px;
+  width: 150px;
+  height: 150px;
+}
+.btn__styles{
+  color: #318acc;
+  background-color:rgba(0, 0, 0, 0);
+  font-family: $font-subtitle;
+  font-weight: bold;
+  border: 2px solid;
+  transition: all 1s ease;
+
+&:hover{
+  background: #318aac;
+  color:#fff !important; 
+}
+}
+.carga__pallets{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  position: relative;
+  top: -100px;
+  left: 300px;
+  width: 100px;
+  }
+.input__carga{
+  display:grid;
+  gap: 80px;
+  width: 50%;
+  height: 150%;
+  margin: auto;
+}
+.label__carga{
+  display: grid;
+  grid-template-columns: 1fr;
+  position: relative;
+  top: 5px;
+  right: -20px;
+  font-family: $font-subtitle;
+  font-weight: bold;
+
+}
+.btn__grabar__carga{
+  position:relative;
+  bottom: 50px;
+  margin: 0 auto;
+
+}
+.btn__styles__grabar{
+  color: #318acc;
+  background-color:rgba(0, 0, 0, 0);
+  font-family: $font-subtitle;
+  border: 2px solid;
+  transition: all 1s ease;
+  width: 150px;
+  height: 50px;
+&:hover{
+  background: #318aac;
+  color:#fff !important; 
+}
+}
+
+footer{
+  font-family: $font-general;
+  font-weight: bold;
+  text-align: center;
+}
+#index__section__consulta{
+  display:grid;
+  grid-template-columns: 2, 1fr;
+  justify-content: center;
+  align-items: center;
+  top: 150px;
+  margin: auto;
+  width: 840px;
+  height: 720px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  font-family: $font-subtitle;
+  background-color: rgba(235, 228, 228, 0.75);
+  border-radius: 12px;
+  border: 1px solid gray
+}
+
+@media (max-width:480px) {.index__logo{
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 50%;
+ }
+}
+@media (max-width:480px) {.index__section__login
+  .index__form__tte
+  .card__carga{
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 100%;
+}
+}

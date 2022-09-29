@@ -1,0 +1,9 @@
+@mixin font ($ff,$fs) {
+    font-family: $ff;
+    font-size: $fs;
+  }
+  @mixin sizes($width, $height){
+    width: $width;
+    height: $height;}
+
+  

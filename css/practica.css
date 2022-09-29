@@ -1,0 +1,234 @@
+h1 {font-weight: bold;
+    text-align: center;
+    font-family: 'Russo One', sans-serif; 
+    font-size: 2.4em;
+    }
+  .index__logo {
+    max-width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+  }
+  .index__section__login{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+  }
+  .index__login {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width:350px;
+    height:200px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+  }
+  .index__btn__login{
+    margin: auto;
+  
+  }
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url(/img/fondo-practica/HD-wallpaper-library-architecture-house-cool-fun.jpg);  
+}
+.container  {
+    width:550px;
+    height: 450px;
+}
+.header{
+    font-size: 1.2rem;
+    border: solid 2px #fff;
+    color: #fff;
+    background-color: #262626;
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.main-content{
+    width:100%;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 50px 40px;
+    box-shadow: 0 0 10px;
+
+}
+.main-content .text_area{
+  font-size: 1.5rem;    
+  line-height: 1.5;
+
+}
+.main-content .person{
+    font-size: 1.6rem;
+    color:red;
+    text-transform: uppercasse;
+    margin-top: 20px;
+}
+.button-area button {
+    background-color: #262626;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.button-area button:active{
+    background-color: lightblue;
+} */
+
+ /* CSS para la ventana */
+ /* #modal{
+    background-color: #fff; 
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 100px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    animation-name: animatemodal;
+    animation-duration: 0.4s;
+    
+ }
+
+ #close-btn{
+    cursor: pointer;
+    font-size: 3rem;
+    color: #ff0000;
+
+ }
+
+ #modal-container{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .2);
+ }
+
+    @keyframes animatemodal{
+        from{
+            top:-300px;  
+            opacity: 0;
+        }
+        to{
+            top:50%;
+            opacity: 1;
+        }
+    } */
+
+    body {
+        background: #A1FF9E;
+        font-family: 'Open Sans';
+        font-size: 1.3em;
+        padding: 0;
+        margin: 0;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      #nav {
+        background: url("http://thumb1.shutterstock.com/display_pic_with_logo/1487123/134611310/stock-vector-colorful-geometric-background-with-triangles-vector-eps-134611310.jpg");
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+      #nav ul{
+        list-style: none;
+      }
+      #nav li {
+        display: inline-block;
+        padding: 10px;
+      }
+      #nav li:hover {
+        background: aquamarine;
+      }
+      #nav li:hover a{
+        color: black;
+      }
+      .content {
+        padding-top: 90px;
+      }
+      .anchor {
+        display: block; /*this is important!*/
+      }
+      .title {
+        position: relative;
+        display: block;
+        top: -50px;
+        padding: 20px 0;
+        font-size: 1.9em;
+      }
+      .title:before{
+        font-size: 1.5em;
+        content: "\005B";
+      }
+      .title:after{
+        font-size: 1.5em;
+        content: "\005D";
+      }
+      .page-divider {
+        margin: 0 auto;
+        width: 100%;
+        min-height: 500px;
+        height: 100%; 
+        overflow: hidden;
+        background-size: cover;
+      }
+      .pgd1{background-image: url("http://image.shutterstock.com/display_pic_with_logo/719740/162308759/stock-photo-young-trendy-girl-in-sunglasses-and-a-knitted-hat-sitting-on-a-skateboard-on-the-background-of-a-162308759.jpg");}
+      .pgd2{background-image: url("http://image.shutterstock.com/display_pic_with_logo/683038/155224421/stock-photo-group-of-three-young-adults-laughing-and-having-a-good-time-155224421.jpg");}
+      .page {
+        min-width: 200px;
+        padding: 50px 100px;
+      }
+      #page1 {background: LightBlue;}
+      #page2 {background: MediumSpringGreen;}
+      #page3 {background: SlateGray;}
+      
+      footer {
+        min-height: 200px;
+        padding: 100px;
+      }
+      footer p {
+        -webkit-column-count: 2;
+        -webkit-column-gap: 40px;
+        -moz-column-count: 2;
+        -moz-column-gap: 40px;
+        -o-column-count: 2;
+        -o-column-gap: 40px;
+        column-count: 2;
+        column-gap: 40px;
+      }
